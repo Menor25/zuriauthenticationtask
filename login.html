@@ -1,0 +1,33 @@
+
+<html>
+<head>
+<title> Login Page   </title>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container login-form">
+        <div class="wrapper">
+            <h2 class="text-center">Login</h2>
+            <p class="text-center">Please fill in your credentials to login.</p>
+
+            <form action="login.php" method="post">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="username" class="form-control" placeholder="Username" value="" required>
+                </div>    
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="logged-in" class="btn btn-primary" value="Login">
+                </div>
+                <p>Don't have an account? <a href="register.html">Register now</a>.</p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
